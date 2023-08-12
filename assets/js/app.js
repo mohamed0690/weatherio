@@ -75,8 +75,7 @@ const errorContent = document.querySelector("[data-error-content]");
 export const updateWeather = function (lat, lon) {
   loading.style.display = "grid";
   container.style.overflowY = "hidden";
-  container.classList.contains("fade-in") ??
-    container.classList.remove("fade-in");
+  container.classList.remove("fade-in");
   errorContent.style.display = "none";
   const currentWeatherSection = document.querySelector(
     "[data-current-weather]"

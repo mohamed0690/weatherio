@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+    #current-location-span {
+        display: none;
+    }
 
     .container {
         padding: 24px;
@@ -257,11 +260,18 @@
         gap: 16px;
     }
 
+    #current-location-span {
+        display: block;
+    }
 }
 
 
 @media (min-width: 1400px) {
     .highlight-list {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    #current-location-span {
+        display: block;
     }
 }
