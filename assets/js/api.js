@@ -3,7 +3,8 @@ const API_KEY = "1d7ed538539a20555350a2d195db97ba";
 export const fetchData = function (URL, callback) {
   fetch(`${URL}&appid=${API_KEY}`)
     .then((res) => res.json())
-    .then((data) => callback(data));
+    .then((data) => callback(data))
+    .catch((error) => console.error("Error fetching data:", error));
 };
 export const url = {
   currentWeather(lat, lon) {
