@@ -1,4 +1,5 @@
 # Weatherio - Your Weather Web App 🌦️
+<img src="https://res.cloudinary.com/dcqttctnu/image/upload/v1693936616/Screenshot_from_2023-09-05_20-56-31_i6v8b3.png" alt="Search TextInput" width="100%" height="" /> 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -7,7 +8,6 @@
 - [Getting Started](#getting-started)
 - [Live Demo](#live-demo)
 - [GitHub Repository](#github-repository)
-- [Feedback](#feedback)
 - [Author](#author)
 
 ## Introduction
@@ -45,8 +45,6 @@ Check out the live demo of Weatherio: [Weatherio Live Demo](https://lnkd.in/dugb
 ## GitHub Repository
 Explore the code and contribute to Weatherio on GitHub: [Weatherio GitHub Repo](https://lnkd.in/duM72HEb)
 
-## Feedback
-Your opinion matters! Feel free to provide feedback, report issues, or suggest improvements. Together, we can make Weatherio even better!
 
 ## Author
 - Mohamed Mahrous
